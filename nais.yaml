@@ -27,7 +27,7 @@ spec:
         databases:
           - name: datastream
             users:
-              - name: datastream
+              - name: datastream-extra
         flags:
           - name: cloudsql.logical_decoding
             value: "on"
