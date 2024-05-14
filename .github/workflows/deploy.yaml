@@ -17,4 +17,3 @@ jobs:
         env:
           CLUSTER: dev-gcp
           RESOURCE: nais.yaml
-r
