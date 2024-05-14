@@ -1,7 +1,7 @@
 kind: Application
 apiVersion: nais.io/v1alpha1
 metadata:
-  name: datastream-test
+  name: datastream
   namespace: nada
   labels:
     team: nada
