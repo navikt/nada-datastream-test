@@ -25,7 +25,7 @@ spec:
     sqlInstances:
       - type: POSTGRES_12
         databases:
-          - name: nada
+          - name: datastream-test
             users:
               - name: datastream
         flags:
