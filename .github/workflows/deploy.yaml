@@ -1,0 +1,14 @@
+name: deploy
+on: 
+  push:
+
+  deploy-dev:
+    name: Deploy dev gcp
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to dev-gcp
+        uses: nais/deploy/actions/deploy@v2
+        env:
+          CLUSTER: dev-gcp
+          RESOURCE: nais.yaml
