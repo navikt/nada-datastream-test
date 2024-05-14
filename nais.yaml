@@ -10,7 +10,9 @@ spec:
   command:
     - /bin/sh
     - -c
-    - 
+    - --
+    - "while true; do sleep 30; done;"
+  args:
   replicas:
     min: 1
     max: 1
