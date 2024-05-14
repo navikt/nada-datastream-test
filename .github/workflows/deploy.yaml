@@ -2,6 +2,7 @@ name: deploy
 on: 
   push:
 
+jobs:
   deploy-dev:
     name: Deploy dev gcp
     runs-on: ubuntu-20.04
