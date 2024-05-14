@@ -23,12 +23,6 @@ spec:
       memory: 128Mi
   gcp:
     sqlInstances:
-      - type: POSTGRES_12
+      - type: POSTGRES_14
         databases:
           - name: datastream-test
-            users:
-              - name: datastream
-        flags:
-          - name: cloudsql.logical_decoding
-            value: "on"
-        diskAutoresize: true
