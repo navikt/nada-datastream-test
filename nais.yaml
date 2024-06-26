@@ -26,8 +26,6 @@ spec:
       - type: POSTGRES_14
         databases:
           - name: datastream
-            users:
-              - name: datastream-extra
         flags:
           - name: cloudsql.logical_decoding
             value: "on"
