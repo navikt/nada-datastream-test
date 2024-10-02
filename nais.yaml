@@ -28,6 +28,7 @@ spec:
           - name: datastream
             users:
               - name: datastream-extra
+              - name: sjekke-noe-greier
         flags:
           - name: cloudsql.logical_decoding
             value: "on"
